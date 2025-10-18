@@ -490,3 +490,5 @@ These commands will compile the `.uf2` firmware file and write it to the microco
 If you're changing the number of keys or the key mappings with Via enabled, then you will need to clear the EEPROM. This is because Via stores its keymappings in a different part of flash memory than your program, so program changes will not touch the Via keys. You can either hold down the bootmagic key when plugging in the keyboard (it both enters bootloader and clears EEPROM) or in Via assign a key to `QK_CLEAR_EEPROM` (Special->Any) then press that key. It does not matter which key you assigned because your Via configuration will be wiped. After Via's configuration is wiped, the key configuration will be copied from your program.
 
 <!-- Auto-update: 2025-10-14T06:29:59.984123 -->
+
+<!-- Auto-update: 2025-10-18T11:42:43.697341 -->
